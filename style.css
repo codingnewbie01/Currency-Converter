@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lexend";
+}
+
+
+body{
+    background-color: rgb(145, 159, 160);
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background-color: rgb(360, 360, 360);
+    border-radius: 1rem;
+    padding: 2rem;
+    min-height: 45dvh;
+    width: 90dvw;
+}
+
+@media (min-width:769px){
+
+ .container{
+    background-color: rgb(360, 360, 360);
+    border-radius: 1rem;
+    padding: 2rem;
+    min-height: 45dvh;
+    width: 40dvw;
+}}
+
+form{
+    margin: 2rem 0 1rem 0;
+}
+
+form select, button, input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+
+form input{
+    border: 1px solid lightgray;
+    font-size: 1rem;
+    height: 3rem;
+    padding-left: 0.5rem;
+}
+
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.select-container img{
+    max-width: 2rem;
+}
+
+.dropdown i{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.select-container{
+    display: flex;
+    justify-content: center;
+    padding: 0.2rem;
+    align-items: center;
+    width: 6rem;
+    border-radius: 0.5rem;
+    border:1px solid lightgray;
+}
+
+.select-container select{
+    font-size: 1rem;
+}
+
+.msg{
+    margin: 2rem 0;
+}
+
+form button{
+    height: 3rem;
+    background-color: #19abea;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: #2fa0d1;
+}
